@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+body {
+  background-color: #1e1e1e;
+}
+.main {
+  width: 100%;
+  height: 520px;
+  /* border: 1px solid red; */
+}
+header {
+  width: 100%;
+  height: 80px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+nav {
+  width: 65%;
+  height: 62px;
+  /* border: 1px solid red;  */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.menu {
+  width: 60%;
+  height: 55px;
+  /* border: 1px solid red;  */
+}
+.menu > ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 9px;
+}
+.menu > ul > li {
+  list-style: none;
+}
+.menu > ul > li > a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 34px;
+  color: #e7e7e7;
+}
+.menu > ul > li > a:hover {
+  color: #b86121;
+}
+
+.menu ul li::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  height: 2px;
+  background: #b86121;
+  margin: auto;
+  transition: all 1s;
+}
+
+.menu ul li:hover::after {
+  width: 100%;
+}
+
+.login_button_main {
+  width: 25%;
+  height: 55px;
+  /* border: 1px solid red;  */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.login_button {
+  width: 83px;
+  height: 48px;
+  border: 2px solid #e7e7e7;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-top: 4px;
+}
+.login_button > a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+  color: #e7e7e7;
+}
+.login_button > a:hover {
+  color: #b86121;
+}
+.sign_up {
+  width: 95px;
+  height: 48px;
+  /* border: 2px solid #e7e7e7; */
+  /* border-radius: 20px; */
+  /* border: 1px solid red;  */
+  padding-left: 10px;
+  padding-top: 4px;
+}
+.sign_up > a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+  color: #b86121;
+}
+.sign_up > a:hover {
+  color: #e7e7e7;
+}
+.banner_main {
+  width: 100%;
+  height: 430px;
+  /* border: 1px solid white; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.banner_text_main {
+  width: 700px;
+  height: 380px;
+  /* border: 1px solid white; */
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.banner_text_main > p {
+  font-size: 40px;
+  color: #e7e7e7;
+  font-weight: 500;
+}
+.banner_photo_main {
+  width: 429px;
+  height: 380px;
+  /* border: 1px solid white; */
+}
+.deffrent {
+  color: #b86121;
+}
+
+.get_started_main{
+    width: 27.5%;
+    height: 80px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 50px; */
+}
+/* .hello{
+    width: 200px;
+    height: 200px;
+    background: rebeccapurple;
+} */
+.get_started_text_main{
+    width: 281px;
+    height: 70px;
+    /* border: 1px solid orchid; */
+    border-radius: 30px;
+    background: #b86121;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+.text{
+    width:180px ;
+    height: 52px;
+    /* border: 1px solid orange; */
+    
+    
+
+}
+.text >a{
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+
+.text_icon{
+    width: 25px;
+    height: 38px;
+    /* border: 1px solid orange; */
+}
+.dark_mod_mian{
+    width: 97.4%;
+    height: 70px;
+    /* border-bottom: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.dard_mode_icon{
+    width:96px ;
+    height: 48px;
+    border: 1px solid #FFFFFF;
+    border-radius:30px ;
+    /* margin-right: 40px; */
+}
+footer{
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_main{
+    width: 800px;
+    height: 32px;
+    /* border: 1px solid orange; */
+}
+.footer_main >ul{
+    display: flex;
+    gap: 97px;
+}
+.footer_main >ul >li{
+    list-style: none;
+}
+.footer_main >ul >li >a{
+   text-decoration: none;
+   color: #F6F6F6;
+   font-size: 22px;
+   line-height: 31px;
+}
+.footer_main >ul >li >a:hover{
+    color: #B86121;
+}
