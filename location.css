@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+  }
+  body {
+    background-color: #1e1e1e;
+    background-image: linear-gradient(rgba(218, 64, 64, 0.7), rgba(0,0,0,0.7)),url(./img/location_backgroumd.svg);
+ 
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+  }
+  header{
+    width: 100%;
+    height: 80px;
+    background: #141414;
+    display: flex;
+  }
+  .right_logo_img_main{
+    width: 40%;
+    height: 80px;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+  }
+  .logo{
+    width:63px ;
+    height: 63px;
+    /* border: 1px solid white; */
+    margin-left: 60px;
+   
+  }
+  .logo_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 145px;
+  }
+  .left_logo_navbar{
+    width: 60%;
+    height: 80px;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav{
+    width: 65%;
+    height: 26px;
+    /* border: 1px solid white; */
+  }
+  .nav >ul{
+display: flex;
+gap: 85px;
+  }
+
+  .nav > ul >li{
+    list-style: none;
+  }
+  .nav > ul > li > a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #FFFFFF;
+  }
+  .nav > ul > li > a:hover{
+    color: #B86121;
+  }
+  .nav ul li::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    height: 2px;
+    background: #b86121;
+    margin: auto;
+    transition: all 1.5s;
+  }
+  
+  .nav  ul li:hover::after {
+    width: 100%;
+  }
+  
+
+  .User_icon{
+    width: 30%;
+    height: 60px;
+    /* border: 1px solid white; */
+    display: grid;
+    place-items: center;
+  }
+  .user_img_main{
+    width:60px;
+    height:60px;
+  
+  }
+  .user_img{
+    width: 100%;
+    height: 100%;
+  }
+  .container{
+    width: 100%;
+    height: 710px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /* align-items:center; */
+  }
+  .location_main{
+    width: 614px;
+    height: 596px;
+    border: 2px solid #E7E7E7;
+    border-radius: 40px;
+  }
+  .trun_location_main{
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    
+    align-items: end;
+  }
+  .trun_location{
+    width: 473px;
+    height: 88px;
+    background-color: #B86121;
+    border-radius: 13.82px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+  }
+  .trun_location_text{
+    width:350px ;
+    height:72px ;
+    /* border: 1px solid black; */
+  }
+.trun_location_text >a{
+ text-decoration: none;
+ color: #F6F6F6;
+ font-size: 49px;
+ font-weight: 500;
+ line-height: 71.87px;
+}
+
+  .location_icon{
+    width:38px ;
+    height: 55px;
+    /* border: 1px solid black; */
+  }
+  .no_thanks_main{
+    width: 100%;
+    height: 130px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  .thanks_text_main{
+    width: 425px;
+    height: 88px;
+    border: 2px solid #F6F6F6;
+    border-radius: 13.82px;
+    text-align: center;
+  }
+  .thanks_text_main >a{
+    font-size: 49px;
+    line-height: 83px;
+    font-weight: 500;
+    color: #F6F6F6;
+    text-decoration: none;
+    
+  }
+  .infomation_img_main{
+    width: 100%;
+    height: 315px;
+    /* border: 1px solid rgb(227, 13, 13); */
+    display: flex;
+   
+    align-items: end;
+  }
+  .infomation_img{
+    width: 100%;
+    height: 273px;
+    /* border: 1px solid rgb(227, 13, 13); */
+    cursor: pointer;
+  }
+
+  .footer_main_container{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: end;
+  }
+  
+footer{
+  
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #B86121;
+}
+.footer_main{
+    width: 800px;
+    height: 32px;
+    /* border: 1px solid orange; */
+}
+.footer_main >ul{
+    display: flex;
+    gap: 97px;
+}
+.footer_main >ul >li{
+    list-style: none;
+}
+.footer_main >ul >li >a{
+   text-decoration: none;
+   color: #F6F6F6;
+   font-size: 22px;
+   line-height: 31px;
+}
+/* .footer_main >ul >li >a:hover{
+    color: black;
+    
+} */
