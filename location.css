@@ -6,9 +6,7 @@
   }
   body {
     background-color: #1e1e1e;
-    background-image: linear-gradient(rgba(218, 64, 64, 0.7), rgba(0,0,0,0.7)),url(./img/location_backgroumd.svg);
- 
-    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7)),url(./img/location_backgroumd.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

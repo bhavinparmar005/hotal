@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+body{
+    background-color: #1e1e1e;
+    /* background-image: linear-gradient(rgba(218, 64, 64, 0.7), rgba(0,0,0,0.7)),url(./img/location_backgroumd.svg); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-size: cover; */
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background: #141414;
+    display: flex;
+  }
+  .right_logo_img_main{
+    width: 40%;
+    height: 80px;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+  }
+  .logo{
+    width:63px ;
+    height: 63px;
+    /* border: 1px solid white; */
+    margin-left: 60px;
+   
+  }
+  .logo_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 145px;
+  }
+  .left_logo_navbar{
+    width: 60%;
+    height: 80px;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav{
+    width: 65%;
+    height: 26px;
+    /* border: 1px solid white; */
+  }
+  .nav >ul{
+display: flex;
+gap: 85px;
+  }
+
+  .nav > ul >li{
+    list-style: none;
+  }
+  .nav > ul > li > a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #FFFFFF;
+  }
+  .nav > ul > li > a:hover{
+    color: #B86121;
+  }
+  .nav ul li::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    height: 2px;
+    background: #b86121;
+    margin: auto;
+    transition: all 1.5s;
+  }
+  
+  .nav  ul li:hover::after {
+    width: 100%;
+  }
+  
+
+  .User_icon{
+    width: 30%;
+    height: 60px;
+    /* border: 1px solid white; */
+    display: grid;
+    place-items: center;
+  }
+  .user_img_main{
+    width:60px;
+    height:60px;
+  
+  }
+  .user_img{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 150px;
+    border-bottom: 1px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choos_location_main{
+    width: 813px;
+    height: 69px;
+    /* border: 1px solid white; */
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+} 
+.search_icon{
+  margin-left: 20px;
+  width: 36px;
+  height: 36px;
+  /* border: 1px solid rebeccapurple; */
+}
+
+.search_input{
+  margin-left: 20px;
+  width: 100px;
+  height: 36px;
+
+}
+.search_input_field{
+  width: 500%;
+  height: 100%;
+  background: transparent;
+  outline: none;
+  border: none;
+  color: #B86121;
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+::placeholder{
+  color: #B86121;
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 500;
+}
+.city_select_main{
+  width: 100%;
+  height: 250px;
+  /* border: 1px solid orangered; */
+  display: flex;
+  align-items: end;
+}
+.city_select_name_main{
+  width: 100%;
+  height: 60px;
+  /* border: 1px solid orangered; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+.city_name{
+  width:206px ;
+  height: 56px;
+  /* border: 2px solid rgb(220, 245, 233); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+}
+.Ahmedabad{
+  width:206px ;
+  height: 56px;
+  border: 2px solid #B86121;
+  border-radius: 10px;
+  color: #F6F6F6;
+  font-size: 36px;
+  line-height: 52px;
+  font-weight: 400;
+  text-align: center;
+  transition: all 1s;
+}
+.Ahmedabad:hover{
+  color: #B86121 ;
+  border: 2px solid #F6F6F6;
+}
+.Mumbai{
+  width:144px ;
+  height: 56px;
+  border: 2px solid #B86121;
+  border-radius: 10px;
+  color: #F6F6F6;
+  font-size: 36px;
+  line-height: 52px;
+  font-weight: 400;
+  text-align: center;
+  transition: all 1s;
+}
+.Mumbai:hover{
+  color: #B86121 ;
+  border: 2px solid #F6F6F6;
+}
+.Chennai{
+  width: 147px ;
+  height: 56px;
+  border: 2px solid #B86121;
+  border-radius: 10px;
+  color: #F6F6F6;
+  font-size: 36px;
+  line-height: 52px;
+  font-weight: 400;
+  text-align: center;
+  transition: all 1s;
+}
+.Chennai:hover{
+  color: #B86121 ;
+  border: 2px solid #F6F6F6;
+}
+.Indore{
+  width:119px ;
+  height: 56px;
+  border: 2px solid #B86121;
+  border-radius: 10px;
+  color: #F6F6F6;
+  font-size: 36px;
+  line-height: 52px;
+  font-weight: 400;
+  text-align: center;
+  transition: all 1s;
+}
+.Indore:hover{
+  color: #B86121 ;
+  border: 2px solid #F6F6F6;
+}
+.city_select_second_row{
+  width: 100%;
+  height: 120px;
+  /* border: 1px solid rebeccapurple; */
+  display: flex;
+  align-items: end;
+}
+.city_select_second_row_name_main{
+  width: 100%;
+  height: 60px;
+  /* border: 1px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  
+}
+.Surat{
+  width:97px ;
+  height: 56px;
+  border: 2px solid #B86121;
+  border-radius: 10px;
+  color: #F6F6F6;
+  font-size: 36px;
+  line-height: 52px;
+  font-weight: 400;
+  text-align: center;
+  transition: all 1s;
+}
+.Surat:hover{
+  color: #B86121 ;
+  border: 2px solid #F6F6F6;
+}
+.Pune{
+  width:96px ;
+  height: 56px;
+  border: 2px solid #B86121;
+  border-radius: 10px;
+  color: #F6F6F6;
+  font-size: 36px;
+  line-height: 52px;
+  font-weight: 400;
+  text-align: center;
+  transition: all 1s;
+}
+.Pune:hover{
+  color: #B86121 ;
+  border: 2px solid #F6F6F6;
+}
+.Lucknow{
+  width:150px ;
+  height: 56px;
+  border: 2px solid #B86121;
+  border-radius: 10px;
+  color: #F6F6F6;
+  font-size: 36px;
+  line-height: 52px;
+  font-weight: 400;
+  text-align: center;
+  transition: all 1s;
+}
+.Lucknow:hover{
+  color: #B86121 ;
+  border: 2px solid #F6F6F6;
+}
+.Nagpur{
+  width:138px ;
+  height: 56px;
+  border: 2px solid #B86121;
+  border-radius: 10px;
+  color: #F6F6F6;
+  font-size: 36px;
+  line-height: 52px;
+  font-weight: 400;
+  text-align: center;
+  transition: all 1s;
+}
+.Nagpur:hover{
+  color: #B86121 ;
+  border: 2px solid #F6F6F6;
+}
+
+.city_select_third_row_main{
+  width: 100%;
+  height: 392px;
+  /* border: 1px solid red; */
+
+  background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)),url(./img/city_baclground.svg);
+    background-size: cover;
+    background-position: center;
+   
+}
+.city_select_third_row{
+  width: 100%;
+  height: 120px;
+  border: 1px solid rebeccapurple;
+  display: flex;
+  align-items: end;
+}
+.city_select_third_row_name_main{
+  width: 100%;
+  height: 60px;
+  /* border: 1px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Amreli{
+  width:120px ;
+  height: 56px;
+  border: 2px solid #B86121;
+  border-radius: 10px;
+  color: #F6F6F6;
+  font-size: 36px;
+  line-height: 52px;
+  font-weight: 400;
+  text-align: center;
+  transition: all 1s;
+}
+.Amreli:hover{
+  color: #B86121 ;
+  border: 2px solid #F6F6F6;
+}
+.Agra{
+  width:94px ;
+  height: 56px;
+  border: 2px solid #B86121;
+  border-radius: 10px;
+  color: #F6F6F6;
+  font-size: 36px;
+  line-height: 52px;
+  font-weight: 400;
+  text-align: center;
+  transition: all 1s;
+}
+.Agra:hover{
+  color: #B86121 ;
+  border: 2px solid #F6F6F6;
+}
+.Bangalore{
+  width:173px ;
+  height: 56px;
+  border: 2px solid #B86121;
+  border-radius: 10px;
+  color: #F6F6F6;
+  font-size: 36px;
+  line-height: 52px;
+  font-weight: 400;
+  text-align: center;
+  transition: all 1s;
+}
+.Bangalore:hover{
+  color: #B86121 ;
+  border: 2px solid #F6F6F6;
+}
+.Bhopal{
+  width:125px ;
+  height: 56px;
+  border: 2px solid #B86121;
+  border-radius: 10px;
+  color: #F6F6F6;
+  font-size: 36px;
+  line-height: 52px;
+  font-weight: 400;
+  text-align: center;
+  transition: all 1s;
+}
+.Bhopal:hover{
+  color: #B86121 ;
+  border: 2px solid #F6F6F6;
+}
+.mainfooter1{
+  width: 100%;
+  height: 270px;
+  border: 1px solid red;
+  display: flex;
+  align-items: end;
+}
+
+footer{
+  width: 100%;
+  height: 80px;
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_main{
+  width: 800px;
+  height: 32px;
+  /* border: 1px solid orange; */
+}
+.footer_main >ul{
+  display: flex;
+  gap: 97px;
+}
+.footer_main >ul >li{
+  list-style: none;
+}
+.footer_main >ul >li >a{
+ text-decoration: none;
+ color: #B86121;
+ font-size: 22px;
+ line-height: 31px;
+}
+.footer_main >ul >li >a:hover{
+
+  color: #F6F6F6;
+}
