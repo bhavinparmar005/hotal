@@ -1,0 +1,457 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+  /* border: 1px solid white; */
+}
+body {
+  background-color: #1e1e1e;
+  height: 3000px;
+}
+
+/* navbar  */
+
+header {
+  width: 100%;
+  height: 80px;
+
+  background: #141414;
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+.right_logo_img_main {
+  width: 60%;
+  height: 80px;
+  /* border: 1px solid rgb(230, 23, 23); */
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 63px;
+  height: 63px;
+  /* border: 1px solid white; */
+  margin-left: 15px;
+}
+.logo_img {
+  width: 100%;
+  height: 100%;
+  border-radius: 145px;
+}
+
+.header_location_and_search_bar {
+  width: 600px;
+  height: 50pxpx;
+  /* border: 1px solid rgb(12, 162, 12); */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.header_location_main {
+  width: 216px;
+  height: 44px;
+  /* border: 1px solid white; */
+  border-radius: 20px;
+  background: #b86121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_location_sub_container {
+  width: 196px;
+  height: 24px;
+  /* border: 1px solid wheat; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_location_icon {
+  width: 18px;
+  height: 22px;
+  /* border: 1px solid red; */
+}
+.header_location_text {
+  width: 136px;
+  height: 20px;
+  color: #e7e7e7;
+  font-size: 14px;
+  font-weight: 500;
+  /* border: 1px solid red; */
+}
+.header_location_drop_down_icon {
+  width: 24px;
+  height: 24px;
+  /* border: 1px solid red; */
+}
+.header_searchbar_main {
+  width: 267px;
+  height: 48px;
+  border-radius: 10px;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_searchbar_main:focus {
+  outline: none;
+}
+.header_searchbar_icon {
+  margin-left: 19px;
+  width: 18px;
+  height: 18px;
+  /* border: 1px solid red; */
+}
+.header_searchbar_input {
+  width: 215px;
+  height: 48px;
+  /* border: 1px solid red; */
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.header_searchbar_input > input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+  font-weight: 500;
+}
+.header_searchbar_input > input::placeholder {
+  color: white;
+  font-weight: 500;
+}
+
+.left_logo_navbar {
+  width: 50%;
+  height: 80px;
+  /* border: 1px solid white; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav {
+  width: 80%;
+  height: 26px;
+  /* border: 1px solid white; */
+}
+.nav > ul {
+  display: flex;
+  gap: 70px;
+}
+
+.nav > ul > li {
+  list-style: none;
+}
+.nav > ul > li > a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #ffffff;
+}
+.nav > ul > li > a:hover {
+  color: #b86121;
+}
+.nav ul li::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  height: 2px;
+  background: #b86121;
+  margin: auto;
+  transition: all 1.5s;
+}
+
+.nav ul li:hover::after {
+  width: 100%;
+}
+
+.User_icon {
+  width: 15%;
+  height: 60px;
+  /* border: 1px solid white; */
+  display: grid;
+  place-items: center;
+}
+.user_img_main {
+  width: 60px;
+  height: 60px;
+}
+.user_img {
+  width: 100%;
+  height: 100%;
+}
+
+/* navbar end  */
+
+/* main sections start */
+
+main {
+  width: 100%;
+  height: 1900px;
+  /* background: rgba(255, 255, 0, 0.256); */
+  display: flex;
+  justify-content: space-evenly;
+}
+.left_main {
+  width: 700px;
+  height: 1882px;
+  border: 1px solid white;
+}
+
+.Restaurants_details_main{
+  width: 100%;
+  height: 600px;
+  border: 1px solid blanchedalmond;
+  padding: 15px;
+}
+.Restaurants_details_header{
+  width: 100%;
+  height: 500px;
+  border: 1px solid rgb(186, 29, 29);
+ 
+}
+.right_main {
+  width: 35%;
+  height: 800px;
+  border: 1px solid white;
+}
+
+/* main sections end */
+
+/* <!-- footer start --> */
+.footer_main {
+  width: 100%;
+  height: 670px;
+  border: 1px solid wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  width: 95%;
+  height: 660px;
+
+  border-radius: 20px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(234, 237, 239, 0.705) 0px 2px 16px 0px;
+}
+.footer_main_container {
+  width: 100%;
+  height: 360px;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.right_footer_main_container {
+  width: 604px;
+  height: 232px;
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_col_1 {
+  width: 99px;
+  height: 182px;
+  /* border: 1px solid white; */
+}
+.footer_col_1 > p > a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 47px;
+  transition: all 0.5s ease-out;
+}
+.footer_col_1 > p > a:hover {
+  color: #b86121;
+}
+
+.footer_col_2 {
+  width: 158px;
+  height: 232px;
+  /* border: 1px solid white; */
+}
+.footer_col_2 > p > a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 47px;
+  transition: all 0.5s ease-out;
+}
+.footer_col_2 > p > a:hover {
+  color: #b86121;
+}
+.footer_col_3 {
+  width: 175px;
+  height: 232px;
+  /* border: 1px solid white; */
+}
+.footer_col_3 > p > a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 47px;
+  transition: all 0.5s ease-out;
+}
+.footer_col_3 > p > a:hover {
+  color: #b86121;
+}
+
+.left_footer_main_container {
+  width: 384px;
+  height: 158px;
+  /* border: 1px solid white; */
+}
+.left_footer_main_container > p > a {
+  font-size: 22px;
+  color: white;
+  text-decoration: none;
+  text-align: right;
+  transition: all 0.5s ease-out;
+}
+.left_footer_main_container > p > a:hover {
+  color: #b86121;
+}
+.left_footer_main_container > p {
+  text-align: right;
+}
+.address {
+  margin-top: 14px;
+  text-align: right;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+.connect_main_container {
+  width: 100%;
+  height: 300px;
+  /* border: 1px solid rgb(255, 16, 16); */
+  display: flex;
+  justify-content: space-evenly;
+}
+.connect_right_container {
+  width: 47%;
+  height: 275px;
+  /* border: 1px solid rgb(255, 16, 16); */
+  display: flex;
+  align-items: end;
+}
+
+.connect_text_main_container {
+  width: 100%;
+  height: 175px;
+  /* border: 1px solid white; */
+}
+.connect_text {
+  padding-top: 15px;
+  width: 336px;
+  height: 69px;
+  /* border: 1px solid rgb(0, 42, 255); */
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  transition: all 0.5s ease-out;
+}
+.connect_text:hover {
+  color: #b86121;
+}
+.social_icon_main {
+  width: 100%;
+  height: 105px;
+  /* border: 1px solid orange; */
+  display: flex;
+  align-items: end;
+}
+.social_icon_sub {
+  width: 56.5%;
+  height: 46px;
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.gmail_icon {
+  width: 45px;
+  height: 45px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.behance_icon {
+  width: 45px;
+  height: 45px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link-din_icon {
+  width: 45px;
+  height: 45px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.instagram_icon {
+  width: 45px;
+  height: 45px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.connect_left_container {
+  width: 40%;
+  height: 275px;
+  /* border: 1px solid rgb(255, 16, 16); */
+}
+
+.compny_logo_main {
+  width: 100%;
+  height: 155px;
+  /* border: 1px solid white; */
+}
+.compny_logo {
+  width: 155px;
+  height: 155px;
+  /* border: 1px solid red; */
+  border-radius: 50%;
+}
+
+.copi_right_main {
+  width: 100%;
+  height: 120px;
+  /* border: 1px solid rgb(0, 255, 47); */
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.copi_right {
+  width: 260px;
+  height: 20px;
+  /* border: 1px solid white; */
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.5s ease-out;
+}
+.copi_right:hover {
+  color: #b86121;
+}
+
+/* footer start end  */
